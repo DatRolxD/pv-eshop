@@ -1,0 +1,25 @@
+// custom variables
+$primary: #c29938;
+
+// import the functions and variables
+@import "../node_modules/bootstrap/scss/_functions";
+@import "../node_modules/bootstrap/scss/_variables";
+
+// custom theme colors
+$custom-theme-colors: (
+    "schred": #DC0D15,
+    "schblu": #26547C,
+    "schyel": #FFD166,
+    "schgr": #06D6A0,
+    "schwh": #FCFCFC
+);
+
+$custom-font-sizes: (
+    0: 4rem
+);
+
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+$font-sizes: map-merge($custom-font-sizes, $font-sizes);
+// import bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap.scss'
+
