@@ -15,7 +15,8 @@ $custom-theme-colors: (
 );
 
 $custom-font-sizes: (
-    0: 4rem
+    0: 4rem,
+    7: 0.75rem
 );
 
 $theme-colors: map-merge($custom-theme-colors, $theme-colors);
