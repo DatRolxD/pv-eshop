@@ -13,8 +13,16 @@
         height: 480px;
       }
 
-      h1 {
-        
+      .hg-t {
+        background: -webkit-linear-gradient(130deg, #DC0D15 56%, #FFD166);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      .hg-b {
+        background: -webkit-linear-gradient(130deg, #FFD166, #DC0D15 56%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
       }
     </style>
 </head>
@@ -45,9 +53,15 @@
       </nav>
       <main>
         <div class="container-lg pt-5">
-          <div class="row align-items-center">
-            <h1 class="fs-0">Erzeugen Sie Ihren eigenen Strom mit Photovoltaik
-            </h1>
+          <div class="container-md d-flex flex-column justify-content-between" style="height: 300px;">
+              <h1 class="fs-0">
+              Erzeugen Sie <span class="hg-t">Ihren</span> eigenen Strom mit <span class="hg-b">Photovoltaik</span>
+              </h1>
+            </div>
+            <div class="bg-opacity-75 bg-schred text-schwh fs-2 px-4 py-3 fw-bold d-flex justify-content-between">
+              <a href="#" class="btn btn-outline-schwh d-block">Kaufe jetzt!</a>
+              <span class="d-block">Produkt katalog</span>
+            </div>
           </div>
         </div>
       </main>
